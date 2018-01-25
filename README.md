@@ -262,7 +262,7 @@ public void changeFlower(View button) {
 # Step 7: Local State
 
 There's still a bit of a problem - every time we restart the app, all our hard work raising this
-plant gets lost. Luckily for us, Android has a [`SharedPreferences`])https://developer.android.com/reference/android/content/SharedPreferences.html)
+plant gets lost. Luckily for us, Android has a [`SharedPreferences`](https://developer.android.com/reference/android/content/SharedPreferences.html)
 class we can use to keep track of the flower's growth. Confusingly, `SharedPreferences` arent' just
 for user preferences - they're a general-purpose key-value store for small values like strings and
 numbers.
